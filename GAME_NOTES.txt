@@ -31,4 +31,4 @@ pointerTableSize3=0x07
 PAUSE ---> 12028 to 1203B
 
 In script2.bin delete line 12 14 16 lines and use line breaker code it used at the beginnig of each line.
-In script3.bin, I'm not sure why, but the last two lines have their pointers swapped.
+In script3.bin, I'm not sure why, but line 5 and 6 have their pointers swapped.
