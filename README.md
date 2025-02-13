@@ -1,31 +1,26 @@
-This tool allows you to extract the text from the questions in the game "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl)", and then easily reinsert it. The pointer table will be updated automatically.
-The tool can be found here: https://github.com/KodingBTW/hexstring
+Text editor for nes virgin games, texts are compressed with LZ77 and this tool can handle that. Games mainly used:
 
+- M.C Kids (USA)
+- MCDonaldLand (Europe)
+- RoboCop versus The Terminator (USA) (Proto).nes
+  
 ## Usage
-
-Synopsis:
-```
-HexString [-d | -e] inFileName outFileName
-```
 
 Description:
 
 ```
-HexString -d "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl).nes" 0x144F4 0x1F4 0x8010 0x04,0x05,0x06,0x07 "Questions.bin" "decoder.tbl" - Decode text from ROM file.
+Virgin_LZ77.py -d <romFile> <scriptStartOffset> <ScriptSize> <outFile> <tblFile>\n")
+Virgin_LZ77.py -c <outFile> <romFile> <scriptOffset> <scriptSize> <pointerTable1> <pointerTable2> <pointerTableSize> <tblFile>\n")
+Virgin_LZ77.py -h -? - Display help
 
-HexString -e "Questions.bin" 0x1007B 4479 0x144F4 0x8010 "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl).nes" "encoder.tbl" - Encode text to ROM file.
-
--h - Display help
-
--v - Output version information
 ```
 The program doesn't handle many exceptions, so try to provide the correct information to avoid issues. For more information, read the attached readme.txt.
 
-For easier use, I have created 2 batch files. Locate the files in the same directory as the ROM, then use "extractor.bat" to extract the text. It will create a file called "QuestionsText.bin", which you can edit with any text editor; I recommend Notepad++. Then, edit the "encode.tbl" file and modify the table as you wish, adding any new graphics you need. Finally, use "inserter.bat" to insert the text.
+### Instrutions
 
-### Notes
+The attached files and instruccions are for RoboCop versus The Terminator (USA) (Proto).nes, but if you need for MC kids, you only need to debbug text and table offsets.
 
-If you get an error about lacking space when inserting the text, you will need to use empty space in the ROM, or perhaps expand it.
+First copy all files in the same directory of the Rom, use "extract text.bat", it will create three files. Then, edit the text and the encode.tbl file. Once you're done, simply open "insert text.bat" and it will automatically insert the text.
 
 ## Frecuency Answer Questions
 
