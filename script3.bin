@@ -1,0 +1,28 @@
+@1
+;~06~~14~~18~~08~~02~Licensed By Nintendo~02~~02~      START~02~~02~      PASSWORD~02~~02~      OPTIONS~00~
+~06~~14~~18~~08~~02~Licensed By Nintendo~02~~02~      START~02~~02~      PASSWORD~02~~02~      OPTIONS~00~
+|
+@2
+;~0A~~0C~~0C~~0C~LIVES~02~~02~SOUND FX~02~~02~MUSIC~02~~02~SOUND~02~~02~MUSIC~02~~02~EXIT~00~
+~0A~~0C~~0C~~0C~LIVES~02~~02~SOUND FX~02~~02~MUSIC~02~~02~SOUND~02~~02~MUSIC~02~~02~EXIT~00~
+|
+@3
+;~08~~10~~0E~~02~  PASSWORD:~00~
+~08~~10~~0E~~02~  PASSWORD:~00~
+|
+@4
+;~0A~~0A~~0C~~10~Game Over~02~~02~~02~~02~Password:~02~~02~~02~~02~Continue~02~~02~End~00~
+~0A~~0A~~0C~~10~Game Over~02~~02~~02~~02~Password:~02~~02~~02~~02~Continue~02~~02~End~00~
+|
+@6
+;~06~~02~~18~~1C~~2D~~2D~Level Select~2D~~2D~~02~~02~   Junkyard~02~   Junkyard Boss~02~   Warehouse 1~02~   Warehouse 2~02~   OCP~02~   ED~2D~209~02~   Computer 1~02~   Computer 2~02~   Computer Boss~02~   Factory 1~02~   Factory 2~02~   HK Tank~02~   Holocaust 1~02~   Bunker 1~02~   Terminator Dog~02~   Bunker 2~02~   Holocaust 2~02~   Flying HK~02~   Skynet 1~02~   Skynet 2~02~   T~2D~900~02~   Skynet 3~02~   The Brain~02~~00~
+~06~~02~~18~~1C~~2D~~2D~Level Select~2D~~2D~~02~~02~   Junkyard~02~   Junkyard Boss~02~   Warehouse 1~02~   Warehouse 2~02~   OCP~02~   ED~2D~209~02~   Computer 1~02~   Computer 2~02~   Computer Boss~02~   Factory 1~02~   Factory 2~02~   HK Tank~02~   Holocaust 1~02~   Bunker 1~02~   Terminator Dog~02~   Bunker 2~02~   Holocaust 2~02~   Flying HK~02~   Skynet 1~02~   Skynet 2~02~   T~2D~900~02~   Skynet 3~02~   The Brain~02~~00~
+|
+@5
+;~0A~~0A~~0C~~10~Game Over~02~~02~~02~~02~Password:~02~~02~~02~~02~~02~~02~End~00~
+~0A~~0A~~0C~~10~Game Over~02~~02~~02~~02~Password:~02~~02~~02~~02~~02~~02~End~00~
+|
+@7
+;~04~~10~ ~02~ Your Final Score:~00~
+~04~~10~ ~02~ Your Final Score:~00~
+|

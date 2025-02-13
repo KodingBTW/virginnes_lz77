@@ -1,0 +1,34 @@
+[RoboCop versus The Terminator (USA) (Proto).nes]
+
+Some important offsets:
+
+Game has 3 block of text located:
+
+scriptOffset1=0x5275
+scriptSize1=0x6f6
+
+scriptOffset2=0x596b
+scriptSize2=0x2c4
+
+scriptOffset3=0x5c2f
+scriptSize3=0x185
+
+
+Pointes:
+
+pointerTable_1a=0x5DDE
+pointerTable_1b=0x5E40
+pointerTableSize1=0x4C
+
+pointerTable_2a=0x5DD0
+pointerTable_2b=0x5e32
+pointerTableSize2=0x0E
+
+pointerTable_3a=0x5DC9
+pointerTable_3b=0x5E2B
+pointerTableSize3=0x07
+
+PAUSE ---> 12028 to 1203B
+
+In script2.bin delete line 12 14 16 lines and use line breaker code it used at the beginnig of each line.
+In script3.bin, I'm not sure why, but the last two lines have their pointers swapped.
