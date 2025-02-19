@@ -16,6 +16,11 @@ Virgin_LZ77.py -c <outFile> <romFile> <scriptOffset> <scriptSize> <pointerTable1
 Virgin_LZ77.py -h -? - Display help
 
 ```
+pointerTable1 = staroffset LSB
+pointerTable2 = staroffset MSB
+
+You can use my GAME_NOTES.txt config
+
 The program doesn't handle many exceptions, so try to provide the correct information to avoid issues. For more information, read the attached readme.txt.
 
 ### Instrutions
