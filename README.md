@@ -3,7 +3,9 @@ Text editor for nes virgin games, texts are compressed with LZ77 and this tool c
 - M.C Kids (USA)
 - MCDonaldLand (Europe)
 - RoboCop versus The Terminator (USA) (Proto).nes
-  
+
+Also the games listed used 2bytes pointers splitted, in one side LSB and other MSB, so the tool is configurated to used this format.
+
 ## Usage
 
 Description:
