@@ -1,4 +1,4 @@
-Text editor for nes virgin games, texts are compressed with LZ77 and this tool can handle that. Games mainly used:
+Text editor for nes virgin games, texts are compressed with LZSS and this tool can handle that. Games mainly used:
 
 - M.C Kids (USA)
 - MCDonaldLand (Europe)
