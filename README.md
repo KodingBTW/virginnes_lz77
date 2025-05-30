@@ -11,9 +11,9 @@ Also the games listed used 2bytes pointers splitted, in one side LSB and other M
 Description:
 
 ```
-Virgin_LZ77.py -d <romFile> <scriptStartOffset> <ScriptSize> <outFile> <tblFile>\n")
-Virgin_LZ77.py -c <outFile> <romFile> <scriptOffset> <scriptSize> <pointerTable1> <pointerTable2> <pointerTableSize> <tblFile>\n")
-Virgin_LZ77.py -h -? - Display help
+Virgin_LZSS.py -d <romFile> <scriptStartOffset> <ScriptSize> <outFile> <tblFile>\n")
+Virgin_LZSS.py -c <outFile> <romFile> <scriptOffset> <scriptSize> <pointerTable1> <pointerTable2> <pointerTableSize> <tblFile>\n")
+Virgin_LZSS.py -h -? - Display help
 
 ```
 pointerTable1 = staroffset LSB
